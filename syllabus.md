@@ -1,7 +1,7 @@
 # Syllabus — PostgreSQL for Everybody Specialization
 
 **Universidad:** University of Michigan
-**Instructor:** Charles Russell Severance ([Dr. Chuck](https://www.coursera.org/instructor/drchuck))
+**Instructor:** Charles Russell Severance ([Dr. Chuck](https://www.coursera.org/instructor/drchuck)) — Clinical Professor of Information, School of Information, University of Michigan
 **Plataforma:** Coursera (incluido en Coursera Plus)
 **Idioma:** Inglés, con doblaje AI y subtítulos en ~23-24 idiomas (incluido español)
 **Nivel:** Intermedio
