@@ -1,0 +1,17 @@
+# Nunca subir credenciales reales de las bases de datos del curso
+.pgpass
+*.env
+.env
+credentials*
+*credentials.json
+*.secrets
+
+# Archivos temporales de psql / editores
+*.swp
+.DS_Store
+
+
+# de momento
+02-intermediate-postgresql
+03-json-nlp-postgresql
+04-database-architecture-nosql-deno
