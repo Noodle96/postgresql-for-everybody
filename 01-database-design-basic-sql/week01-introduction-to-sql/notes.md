@@ -34,7 +34,7 @@ CRUD = Create, Read, Update, Delete — las cuatro operaciones fundamentales sob
 
 ### Para profundizar
 
-Ver [`resources/referencias.md`](../../resources/referencias.md) — en especial el slide-deck de pg4e.com para esta misma semana ([Lecture 01 PDF](https://www.pg4e.com/lectures/01-Intro-to-SQL-BW.pdf)) y el paper original de Codd.
+Ver [`resources/referencias.md`](../../resources/referencias.md) — en especial el slide-deck de pg4e.com para esta misma semana ([Lecture 01 PDF](https://www.pg4e.com/lectures/01-Intro-to-SQL-BW.pdf)) y el paper original de Codd. También el material oficial descargado del curso: [Weeks 1 and 2 — Introduction to SQL (PDF)](../weeks-1-2-introduction-to-sql.pdf).
 
 ## Ejercicios / app items
 

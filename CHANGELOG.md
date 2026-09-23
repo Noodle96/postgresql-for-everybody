@@ -12,3 +12,4 @@ Registro cronológico del avance en el curso.
 - Completados los Graded App Items "Initial Database Setup" y "Making Our First Tables" (check verde) de week01. "Inserting Some Data into a Table" ejecutado, pendiente confirmar check.
 - Definida la convención de `.sql` en `exercises/` (numeración por orden del módulo, header sin credenciales) y documentada en el README. Se agregó `.gitignore` para evitar subir credenciales al repo.
 - `resources/comandos-psql.md`: referencia de meta-comandos de psql por categoría (conexión, exploración de tablas, formato de salida, archivos, historial).
+- Enlazado el material oficial en PDF del curso (Weeks 1-2 y Weeks 3-4) desde `01-database-design-basic-sql/notes.md` y cada semana correspondiente. Pendiente: colocar los 2 PDF físicamente en `01-database-design-basic-sql/` (ver nota en el chat sobre el sandbox).
