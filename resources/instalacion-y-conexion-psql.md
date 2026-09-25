@@ -82,6 +82,16 @@ chmod 600 ~/.pgpass
 - **`psql: error: connection to server ... failed: Connection refused`** — revisa que el host/puerto sean exactos (copia y pega, no los transcribas a mano) y que tengas conexión a internet.
 - **`password authentication failed`** — contraseña mal copiada o usuario incorrecto; vuelve a la lectura del curso y confirma las credenciales.
 - **`SSL connection is required`** — algunos hosts remotos exigen SSL; agrega `sslmode=require` así: `psql "host=<host> port=<puerto> dbname=<basededatos> user=<usuario> sslmode=require"`.
+- **`ERROR: permission denied for view pg_roles`** (o `pg_database`) — no es un error de tu tabla. La base de datos del curso vive en un servidor compartido, y tu usuario no tiene permiso sobre catálogos a nivel de servidor. Comandos como `\d tabla` consultan `pg_roles` internamente para mostrar el formato completo, y ahí truena. Alternativa que sí funciona en este hosting:
+
+  ```sql
+  SELECT column_name, data_type, character_maximum_length, is_nullable, column_default
+  FROM information_schema.columns
+  WHERE table_name = 'nombre_tabla'
+  ORDER BY ordinal_position;
+  ```
+
+  Ver [PostgreSQL Shared Database Hosting (wiki)](https://wiki.postgresql.org/wiki/Shared_Database_Hosting#template1), citado por el propio curso.
 
 ## Referencias
 
