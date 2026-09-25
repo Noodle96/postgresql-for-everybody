@@ -10,6 +10,10 @@ credentials*
 *.swp
 .DS_Store
 
+# Datasets descargados para practicar los ejercicios (se re-descargan con
+# el comando wget/curl documentado en el .sql correspondiente)
+**/exercises/data/
+
 
 # de momento
 02-intermediate-postgresql

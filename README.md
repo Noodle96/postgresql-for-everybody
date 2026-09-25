@@ -17,6 +17,10 @@ Notas, ejercicios y proyectos a medida que avanzo por los 4 cursos de la especia
 
 Cada carpeta `weekNN-.../exercises/` guarda un archivo `.sql` por cada Graded App Item que involucre SQL real, numerado según el orden en que aparece en el módulo: `0N-nombre-del-item.sql` (ej. `04-making-our-first-tables.sql`). Cada archivo lleva un encabezado con curso, semana, nombre del item, fecha y el comando de conexión **sin credenciales reales** (esas solo viven en la app del curso, nunca en este repo — ver `.gitignore`). Los items que no producen SQL propio (como "Initial Database Setup", que solo crea la base de datos vía el tool) quedan documentados como una línea en el `notes.md` de la semana, sin `.sql` vacío. El checklist de "Ejercicios / app items" de cada `notes.md` enlaza a estos archivos y anota fecha + si el check de Coursera ya quedó en verde.
 
+## Convención de `practica/`
+
+Además de `exercises/` (graded app items oficiales), algunas semanas tienen una carpeta `practica/` con ejercicios propios — no vienen del curso, se arman para reforzar un tema puntual (`WHERE`, `ORDER BY`, `GROUP BY`, etc.). Numerados `0N-tema.sql`, cada archivo trae el problema como comentario arriba y la consulta resuelta debajo — a diferencia de `exercises/`, acá sí van soluciones completas porque no es trabajo evaluado por Coursera. Si un ejercicio usa contenido de un curso/semana posterior al actual, se marca explícitamente como "ADELANTO" en el encabezado.
+
 ## Cursos de la especialización
 
 1. Database Design and Basic SQL in PostgreSQL
